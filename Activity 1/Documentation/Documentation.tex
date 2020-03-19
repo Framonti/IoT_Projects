@@ -5,8 +5,44 @@
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage[export]{adjustbox}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{hyperref}
 
 \graphicspath{ {../../Images/} }
+
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\usepackage{listings}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
 
 \begin{document}
 
@@ -74,5 +110,71 @@
 \vfill
 
 \end{titlepage}
+\begin{abstract}
+This document contains the documentation for the first activity for the course "Internet of Things", Academic Year 2019/2020. \\
+We firstly list the requirements, then we present our implementation. All the code can be found in the following GitHub repository: \url{https://github.com/Framonti/IoT_Projects}
+\end{abstract}
+\subsection{Requirements}
+The goal of the activity is to develop a small application for Telosb, a small component that supports TinyOS. This application should be deployed on three different motes that communicate with each other through the radio component; they will react to the messages, toggling their LEDs according to some rules.\\
+The motes send their messages in broadcast, with different frequencies (1 Hz for mote1, 3 Hz for mote2, 5 Hz for mote3).
+
+\subsection{Implementation}
+The implementation follows the guidelines presented during the lectures; therefore, we have three different files:\emph{RadioSenderToLeds.h}, \\
+\emph{RadioSenderToLedsAppC.nc}, and \emph{RadioSenderToLedC.nc}.\\
+In this document, we discuss only the application logic part. The other two files are necessary, but only state what kind of components we're using and therefore they don't offer discussion points. We just want to point out some implementation decisions and not offer a detailed commentary of the code.
+
+\begin{lstlisting}[language=C]
+ event void AMControl.startDone(error_t err) {
+    if (err == SUCCESS) {
+    	if(TOS_NODE_ID == 1){
+      		call MilliTimer.startPeriodic(TIMERMILLISNODE1);
+      	}
+      	else if (TOS_NODE_ID == 2){
+      		call MilliTimer.startPeriodic(TIMERMILLISNODE2);
+      	}			
+      	else {
+      		call MilliTimer.startPeriodic(TIMERMILLISNODE3); 
+[...]
+\end{lstlisting}
+
+The first design decision we made is related to how we can manage the different frequencies for each node. In this exercise, as shown in the code, we decided to check TOS\_NODE\_ID in order to instantiate the correct timer for each mote. A more correct approach would have been to create a different logic file for each node, in order to reduce code length and logic complexity. However, we preferred to keep the number of delivered item as low as possible. 
+
+\begin{lstlisting}[language=C]
+  event message_t* Receive.receive(message_t* bufPtr, void* payload, uint8_t len) {
+    if (len == sizeof(radio_sender_msg_t)) {
+      radio_sender_msg_t* rsm = (radio_sender_msg_t*)payload;
+      counter++;   
+      if((rsm-> counter % 10) == 0){
+      	call Leds.led0Off();
+      	call Leds.led1Off();
+      	call Leds.led2Off();
+      	return bufPtr;
+      }
+      else {
+      	if (rsm-> sender_id == 1) {
+			call Leds.led0Toggle();
+		}
+      	else if (rsm -> sender_id == 2){
+			call Leds.led1Toggle();
+      	}
+      	else {
+			call Leds.led2Toggle();
+ [...]
+\end{lstlisting}
+
+The previous code simply implement the logic required when receiving a message and should be self-explanatory. To note, when a node receives a message with counter exactly divisible by 10, we don't update the LEDs according to the sender\_id. This is not explicitly written in the requirements (we could have set all the LEDs off, but then turn on the one corresponding to the sender\_id), but we felt this behaviour to be more compliant.
+
+\subsection{Simulation}
+We simulate our implementation with Cooja, and we obtained the required behaviour. As expected, each mote has only two LEDs blinking, with different frequencies. 
+
+
+
+
+
+
+
+
+
+
 
 \end{document}

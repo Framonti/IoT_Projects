@@ -1,0 +1,97 @@
+DEBUG (1): Application booted on node 1.
+DEBUG (1): Radio booted
+DEBUG (1): Preparing the message 
+DEBUG (1): Ack requested
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 5 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 0 
+		 data: 0 
+DEBUG (1): Packet sent at time 0:0:0.979476921 
+DEBUG (1): Ack not received; retrasmitting...
+DEBUG (1): Preparing the message 
+DEBUG (1): Ack requested
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 5 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 1 
+		 data: 0 
+DEBUG (1): Packet sent at time 0:0:1.961105310 
+DEBUG (1): Ack not received; retrasmitting...
+DEBUG (1): Preparing the message 
+DEBUG (1): Ack requested
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 5 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 2 
+		 data: 0 
+DEBUG (1): Packet sent at time 0:0:2.936660735 
+DEBUG (1): Ack not received; retrasmitting...
+DEBUG (1): Preparing the message 
+DEBUG (1): Ack requested
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 5 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 3 
+		 data: 0 
+DEBUG (1): Packet sent at time 0:0:3.911025983 
+DEBUG (1): Ack not received; retrasmitting...
+DEBUG (1): Preparing the message 
+DEBUG (1): Ack requested
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 5 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 4 
+		 data: 0 
+DEBUG (1): Packet sent at time 0:0:4.891860919 
+DEBUG (1): Ack not received; retrasmitting...
+DEBUG (2): Application booted on node 2.
+DEBUG (2): Radio booted
+DEBUG (1): Preparing the message 
+DEBUG (1): Ack requested
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 5 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 5 
+		 data: 0 
+DEBUG (2): Received packet at time 0:0:5.868377643
+DEBUG (2):  Payload length 5 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 5 
+		 data: 0 
+DEBUG (2): Saved received counter
+DEBUG (1): Packet sent at time 0:0:5.868545488 
+DEBUG (1): Ack received
+DEBUG (2): Preparing the message 
+DEBUG (2): Ack requested
+DEBUG (2): Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 5 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 5 
+		 data: 245 
+DEBUG (1): Received packet at time 0:0:5.880432124
+DEBUG (1):  Payload length 5 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 5 
+		 data: 245 
+DEBUG (1): Everything received; finishing simulation...
+DEBUG (2): Packet sent at time 0:0:5.880599970 
+DEBUG (2): Ack received

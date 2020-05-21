@@ -1,0 +1,413 @@
+[
+    {
+        "id": "b5d1af96.0416f8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b616293f.b20998",
+        "type": "csv",
+        "z": "b5d1af96.0416f8",
+        "name": "convert_csv",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "header, payload",
+        "skip": "0",
+        "x": 490,
+        "y": 320,
+        "wires": [
+            [
+                "58ffcb74.03883c"
+            ]
+        ]
+    },
+    {
+        "id": "2610246d.8fe1e4",
+        "type": "file in",
+        "z": "b5d1af96.0416f8",
+        "name": "read_file",
+        "filename": "/home/user/Downloads/traffic.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 320,
+        "y": 320,
+        "wires": [
+            [
+                "b616293f.b20998"
+            ]
+        ]
+    },
+    {
+        "id": "b0deb172.5c155",
+        "type": "inject",
+        "z": "b5d1af96.0416f8",
+        "name": "start_reading",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "2610246d.8fe1e4"
+            ]
+        ]
+    },
+    {
+        "id": "9d504aa1.8fc368",
+        "type": "switch",
+        "z": "b5d1af96.0416f8",
+        "name": "filter_publish",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Publish Message",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 320,
+        "wires": [
+            [
+                "26cbd144.2d7196"
+            ]
+        ]
+    },
+    {
+        "id": "e9766dc1.60ca28",
+        "type": "debug",
+        "z": "b5d1af96.0416f8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 970,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "58ffcb74.03883c",
+        "type": "function",
+        "z": "b5d1af96.0416f8",
+        "name": "extract_payload",
+        "func": "var payload = msg.payload.payload;\nmsg.payload = payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 320,
+        "wires": [
+            [
+                "9d504aa1.8fc368"
+            ]
+        ]
+    },
+    {
+        "id": "f1691871.f095c",
+        "type": "switch",
+        "z": "b5d1af96.0416f8",
+        "name": "split_topics",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "factory/department1/section1/plc",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "factory/department3/section3/plc",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "factory/department1/section1/hydraulic_valve",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "factory/department3/section3/hydraulic_valve",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 150,
+        "y": 520,
+        "wires": [
+            [
+                "a3aa5b54.addb68"
+            ],
+            [
+                "a3aa5b54.addb68"
+            ],
+            [
+                "60602930.863d6"
+            ],
+            [
+                "60602930.863d6"
+            ]
+        ]
+    },
+    {
+        "id": "a3aa5b54.addb68",
+        "type": "function",
+        "z": "b5d1af96.0416f8",
+        "name": "remove_topic",
+        "func": "var hex_payload = msg.payload.split(\"]\")[1];\n\nwhile(hex_payload.charAt(0) === ' ')\n{\n hex_payload = hex_payload.substr(1);\n}\n\nmsg.payload = hex_payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 360,
+        "y": 500,
+        "wires": [
+            [
+                "bde84a37.3bdbd"
+            ]
+        ]
+    },
+    {
+        "id": "26cbd144.2d7196",
+        "type": "switch",
+        "z": "b5d1af96.0416f8",
+        "name": "remove_empty_payloads",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "7b22",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1090,
+        "y": 320,
+        "wires": [
+            [
+                "2b4fb23a.ba8736"
+            ]
+        ]
+    },
+    {
+        "id": "bde84a37.3bdbd",
+        "type": "function",
+        "z": "b5d1af96.0416f8",
+        "name": "convert_from_hex",
+        "func": "var buf = Buffer.from(msg.payload, 'hex');\nmsg.payload = buf.toString();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 570,
+        "y": 500,
+        "wires": [
+            [
+                "b563d998.b77f7"
+            ]
+        ]
+    },
+    {
+        "id": "b563d998.b77f7",
+        "type": "function",
+        "z": "b5d1af96.0416f8",
+        "name": "extract_value",
+        "func": "var obj = JSON.parse(msg.payload);\nmsg.payload = obj.value\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 780,
+        "y": 500,
+        "wires": [
+            [
+                "21ea2760.296dd8",
+                "e9766dc1.60ca28"
+            ]
+        ]
+    },
+    {
+        "id": "60602930.863d6",
+        "type": "function",
+        "z": "b5d1af96.0416f8",
+        "name": "remove_topic",
+        "func": "var hex_payload = msg.payload.split(\"]\")[1];\n\nwhile(hex_payload.charAt(0) === ' ')\n{\n hex_payload = hex_payload.substr(1);\n}\n\nmsg.payload = hex_payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "e8df5d6d.f4fab"
+            ]
+        ]
+    },
+    {
+        "id": "e8df5d6d.f4fab",
+        "type": "function",
+        "z": "b5d1af96.0416f8",
+        "name": "convert_from_hex",
+        "func": "var buf = Buffer.from(msg.payload, 'hex');\nmsg.payload = buf.toString();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 570,
+        "y": 540,
+        "wires": [
+            [
+                "6193d7eb.7b558"
+            ]
+        ]
+    },
+    {
+        "id": "6193d7eb.7b558",
+        "type": "function",
+        "z": "b5d1af96.0416f8",
+        "name": "extract_value",
+        "func": "var obj = JSON.parse(msg.payload);\nmsg.payload = obj.value\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 780,
+        "y": 540,
+        "wires": [
+            [
+                "9fde5eb.8c939a",
+                "e9766dc1.60ca28"
+            ]
+        ]
+    },
+    {
+        "id": "21ea2760.296dd8",
+        "type": "mqtt out",
+        "z": "b5d1af96.0416f8",
+        "name": "mqtt_plc",
+        "topic": "channels/1063967/publish/fields/field1/838LFEV8Y419OULO",
+        "qos": "0",
+        "retain": "false",
+        "broker": "6688567f.569dd8",
+        "x": 960,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9fde5eb.8c939a",
+        "type": "mqtt out",
+        "z": "b5d1af96.0416f8",
+        "name": "mqtt_hydraulic_valve",
+        "topic": "channels/1063967/publish/fields/field2/838LFEV8Y419OULO",
+        "qos": "0",
+        "retain": "false",
+        "broker": "6688567f.569dd8",
+        "x": 1000,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "1b6c9944.ec5427",
+        "type": "delay",
+        "z": "b5d1af96.0416f8",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 360,
+        "y": 400,
+        "wires": [
+            [
+                "f1691871.f095c"
+            ]
+        ]
+    },
+    {
+        "id": "2b4fb23a.ba8736",
+        "type": "switch",
+        "z": "b5d1af96.0416f8",
+        "name": "filter_topics",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "factory/department1/section1/plc",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "factory/department3/section3/plc",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "factory/department1/section1/hydraulic_valve",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "factory/department3/section3/hydraulic_valve",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 150,
+        "y": 400,
+        "wires": [
+            [
+                "1b6c9944.ec5427"
+            ],
+            [
+                "1b6c9944.ec5427"
+            ],
+            [
+                "1b6c9944.ec5427"
+            ],
+            [
+                "1b6c9944.ec5427"
+            ]
+        ]
+    },
+    {
+        "id": "6688567f.569dd8",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "thingspeak_broker",
+        "broker": "mqtt.thingspeak.com",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]

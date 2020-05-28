@@ -1,0 +1,216 @@
+[
+    {
+        "id": "8289e11d.4cb2f8",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "bc202a9d.47e508",
+        "type": "tcp in",
+        "z": "8289e11d.4cb2f8",
+        "name": "",
+        "server": "client",
+        "host": "localhost",
+        "port": "60001",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 230,
+        "y": 220,
+        "wires": [
+            [
+                "e09cc549.6a82a"
+            ]
+        ]
+    },
+    {
+        "id": "d708a0e0.fa4b08",
+        "type": "json",
+        "z": "8289e11d.4cb2f8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 670,
+        "y": 220,
+        "wires": [
+            [
+                "e12924f0.f0322"
+            ]
+        ]
+    },
+    {
+        "id": "48e8171f.29da18",
+        "type": "debug",
+        "z": "8289e11d.4cb2f8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 690,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e09cc549.6a82a",
+        "type": "function",
+        "z": "8289e11d.4cb2f8",
+        "name": "remove_garbage_chars",
+        "func": "var real_payload = msg.payload.split(\"d\")[1];\nreal_payload = real_payload.slice(0, -1); \nmsg.payload = real_payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "d708a0e0.fa4b08"
+            ]
+        ]
+    },
+    {
+        "id": "ca6c413d.03cad",
+        "type": "delay",
+        "z": "8289e11d.4cb2f8",
+        "name": "delay_msg",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1050,
+        "y": 220,
+        "wires": [
+            [
+                "447c670c.c6f9d"
+            ]
+        ]
+    },
+    {
+        "id": "e12924f0.f0322",
+        "type": "function",
+        "z": "8289e11d.4cb2f8",
+        "name": "filter_values",
+        "func": "var value = msg.payload.Value\nif(value <= 70)\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 850,
+        "y": 220,
+        "wires": [
+            [
+                "ca6c413d.03cad"
+            ]
+        ]
+    },
+    {
+        "id": "447c670c.c6f9d",
+        "type": "function",
+        "z": "8289e11d.4cb2f8",
+        "name": "split_topics",
+        "func": "var topic = msg.payload.TopicID\nif(topic == 1)\n    return [msg, null];\nreturn [null, msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "1f3ec852.700f3"
+            ],
+            [
+                "25b9cfd9.1f2bc"
+            ]
+        ]
+    },
+    {
+        "id": "1f3ec852.700f3",
+        "type": "function",
+        "z": "8289e11d.4cb2f8",
+        "name": "extract_value",
+        "func": "msg.payload = msg.payload.Value\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 320,
+        "wires": [
+            [
+                "48e8171f.29da18",
+                "20b27aa2.f8e286"
+            ]
+        ]
+    },
+    {
+        "id": "25b9cfd9.1f2bc",
+        "type": "function",
+        "z": "8289e11d.4cb2f8",
+        "name": "extract_value",
+        "func": "msg.payload = msg.payload.Value\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 400,
+        "wires": [
+            [
+                "48e8171f.29da18",
+                "5b1cd618.878c"
+            ]
+        ]
+    },
+    {
+        "id": "20b27aa2.f8e286",
+        "type": "mqtt out",
+        "z": "8289e11d.4cb2f8",
+        "name": "field1",
+        "topic": "channels/1070054/publish/fields/field1/0LCFMYKPDCXNHN0X",
+        "qos": "0",
+        "retain": "",
+        "broker": "6688567f.569dd8",
+        "x": 670,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5b1cd618.878c",
+        "type": "mqtt out",
+        "z": "8289e11d.4cb2f8",
+        "name": "field2",
+        "topic": "channels/1070054/publish/fields/field2/0LCFMYKPDCXNHN0X",
+        "qos": "0",
+        "retain": "",
+        "broker": "6688567f.569dd8",
+        "x": 670,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6688567f.569dd8",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "thingspeak_broker",
+        "broker": "mqtt.thingspeak.com",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]

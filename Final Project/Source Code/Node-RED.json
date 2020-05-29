@@ -1,0 +1,237 @@
+[
+    {
+        "id": "e185b88a.7937b",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "86530cee.07a538",
+        "type": "tcp in",
+        "z": "e185b88a.7937b",
+        "name": "mote1",
+        "server": "client",
+        "host": "localhost",
+        "port": "60001",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "d9c5919e.bda8a"
+            ]
+        ]
+    },
+    {
+        "id": "d9c5919e.bda8a",
+        "type": "function",
+        "z": "e185b88a.7937b",
+        "name": "remove_garbage_chars",
+        "func": "var split_payload = msg.payload.split(\"d\");\nvar real_payload = split_payload[1];\nreal_payload = real_payload.concat(\"d\");\nreal_payload = real_payload.concat(split_payload[2]);\nreal_payload = real_payload.split(\"]\")[0];\n//real_payload = real_payload.slice(0, -1); \nmsg.payload = real_payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [
+                "fa778e26.ef00d8"
+            ]
+        ]
+    },
+    {
+        "id": "b4255570.fa7b58",
+        "type": "debug",
+        "z": "e185b88a.7937b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 890,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "fa778e26.ef00d8",
+        "type": "json",
+        "z": "e185b88a.7937b",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 280,
+        "wires": [
+            [
+                "bd69f2e8.78504"
+            ]
+        ]
+    },
+    {
+        "id": "9138deac.fa9718",
+        "type": "tcp in",
+        "z": "e185b88a.7937b",
+        "name": "mote2",
+        "server": "client",
+        "host": "localhost",
+        "port": "60002",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "d9c5919e.bda8a"
+            ]
+        ]
+    },
+    {
+        "id": "62c5fa36.e27b6c",
+        "type": "tcp in",
+        "z": "e185b88a.7937b",
+        "name": "mote3",
+        "server": "client",
+        "host": "localhost",
+        "port": "60003",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "d9c5919e.bda8a"
+            ]
+        ]
+    },
+    {
+        "id": "3758aa6a.3d24be",
+        "type": "tcp in",
+        "z": "e185b88a.7937b",
+        "name": "mote4",
+        "server": "client",
+        "host": "localhost",
+        "port": "60004",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "d9c5919e.bda8a"
+            ]
+        ]
+    },
+    {
+        "id": "ae41e0ff.957d5",
+        "type": "tcp in",
+        "z": "e185b88a.7937b",
+        "name": "mote5",
+        "server": "client",
+        "host": "localhost",
+        "port": "60005",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "d9c5919e.bda8a"
+            ]
+        ]
+    },
+    {
+        "id": "563f9a21.6bfa6c",
+        "type": "tcp in",
+        "z": "e185b88a.7937b",
+        "name": "mote6",
+        "server": "client",
+        "host": "localhost",
+        "port": "60006",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "d9c5919e.bda8a"
+            ]
+        ]
+    },
+    {
+        "id": "bd69f2e8.78504",
+        "type": "function",
+        "z": "e185b88a.7937b",
+        "name": "translate_for_ittt",
+        "func": "msg.event = \"device_proximity\";\nvar og_payload = msg.payload;\nmsg.payload = {\"value1\" : og_payload.Sender, \"value2\": og_payload.Receiver}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 820,
+        "y": 280,
+        "wires": [
+            [
+                "d2382bd0.cbd7d"
+            ]
+        ]
+    },
+    {
+        "id": "9ca90b14.8288d",
+        "type": "http request",
+        "z": "e185b88a.7937b",
+        "name": "ITTT request",
+        "method": "POST",
+        "ret": "txt",
+        "url": "https://maker.ifttt.com/trigger/{{event}}/with/key/j2UbVyeyTXF9kqf9N1-g04KhKu71YUgmRpR7TY-9Tke",
+        "tls": "",
+        "x": 710,
+        "y": 420,
+        "wires": [
+            [
+                "b4255570.fa7b58"
+            ]
+        ]
+    },
+    {
+        "id": "d2382bd0.cbd7d",
+        "type": "delay",
+        "z": "e185b88a.7937b",
+        "name": "rate_limiter",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 530,
+        "y": 420,
+        "wires": [
+            [
+                "9ca90b14.8288d"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,763 @@
+DEBUG (1): Application booted on node 1.
+DEBUG (6): Application booted on node 6.
+DEBUG (3): Application booted on node 3.
+DEBUG (2): Application booted on node 2.
+DEBUG (5): Application booted on node 5.
+DEBUG (4): Application booted on node 4.
+DEBUG (1): Successfully started the radio
+DEBUG (2): Successfully started the radio
+DEBUG (3): Successfully started the radio
+DEBUG (6): Successfully started the radio
+DEBUG (5): Successfully started the radio
+DEBUG (4): Successfully started the radio
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): I succesfully sent the messagge
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (6): I succesfully sent the messagge
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): I succesfully sent the messagge
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (3): I succesfully sent the messagge
+DEBUG (4): I succesfully sent the messagge
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (3): I succesfully sent the messagge
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): I succesfully sent the messagge
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): I succesfully sent the messagge
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (5): I succesfully sent the messagge
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (5): I succesfully sent the messagge
+DEBUG (2): I succesfully sent the messagge
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): I succesfully sent the messagge
+DEBUG (2): I succesfully sent the messagge
+DEBUG (4): I succesfully sent the messagge
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (4): I succesfully sent the messagge
+DEBUG (3): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (4): Created message to inform of my presence, with ID 4
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (6): A Device with ID 4 is near me!
+DEBUG (1): A Device with ID 4 is near me!
+DEBUG (5): A Device with ID 4 is near me!
+DEBUG (3): A Device with ID 4 is near me!
+DEBUG (2): A Device with ID 4 is near me!
+DEBUG (4): I succesfully sent the messagge
+DEBUG (6): A Device with ID 1 is near me!
+DEBUG (5): A Device with ID 1 is near me!
+DEBUG (4): A Device with ID 1 is near me!
+DEBUG (3): A Device with ID 1 is near me!
+DEBUG (2): A Device with ID 1 is near me!
+DEBUG (1): I succesfully sent the messagge
+DEBUG (6): A Device with ID 5 is near me!
+DEBUG (3): A Device with ID 5 is near me!
+DEBUG (1): A Device with ID 5 is near me!
+DEBUG (2): A Device with ID 5 is near me!
+DEBUG (4): A Device with ID 5 is near me!
+DEBUG (5): I succesfully sent the messagge
+DEBUG (5): A Device with ID 6 is near me!
+DEBUG (4): A Device with ID 6 is near me!
+DEBUG (2): A Device with ID 6 is near me!
+DEBUG (1): A Device with ID 6 is near me!
+DEBUG (3): A Device with ID 6 is near me!
+DEBUG (6): I succesfully sent the messagge
+DEBUG (6): A Device with ID 2 is near me!
+DEBUG (5): A Device with ID 2 is near me!
+DEBUG (4): A Device with ID 2 is near me!
+DEBUG (1): A Device with ID 2 is near me!
+DEBUG (3): A Device with ID 2 is near me!
+DEBUG (2): I succesfully sent the messagge
+DEBUG (6): A Device with ID 3 is near me!
+DEBUG (5): A Device with ID 3 is near me!
+DEBUG (4): A Device with ID 3 is near me!
+DEBUG (2): A Device with ID 3 is near me!
+DEBUG (1): A Device with ID 3 is near me!
+DEBUG (3): I succesfully sent the messagge
+DEBUG (5): Created message to inform of my presence, with ID 5
+DEBUG (2): Created message to inform of my presence, with ID 2
+DEBUG (6): Created message to inform of my presence, with ID 6
+DEBUG (3): Created message to inform of my presence, with ID 3
+DEBUG (1): Created message to inform of my presence, with ID 1
+DEBUG (4): Created message to inform of my presence, with ID 4

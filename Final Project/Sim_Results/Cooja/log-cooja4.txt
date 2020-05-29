@@ -1,0 +1,164 @@
+00:04.830	ID:1	~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:04.942	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:04.975	ID:4	~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:04.975	ID:2	~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:05.313	ID:3	~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:05.314	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:05.435	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:05.435	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:05.463	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:05.463	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:05.493	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:05.493	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:05.805	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:05.805	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:05.917	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:05.918	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:05.947	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:05.947	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:05.983	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:05.983	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:06.290	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:06.290	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:06.403	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:06.403	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:06.435	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:06.436	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:06.465	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:06.465	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:06.785	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:06.785	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:06.894	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:06.894	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:06.929	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:06.929	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:06.954	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:06.954	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:07.267	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:07.267	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:07.384	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:07.384	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:07.420	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:07.420	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:07.443	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:07.443	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:07.758	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:07.758	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:07.875	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:07.875	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:07.904	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:07.904	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:07.933	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:07.933	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:08.249	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:08.249	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:08.356	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:08.356	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:08.393	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:08.393	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:08.417	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:08.417	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:08.731	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:08.731	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:08.844	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:08.844	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:08.877	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:08.877	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:08.905	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:08.905	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:09.224	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:09.225	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:09.338	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:09.338	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:09.365	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:09.365	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:09.394	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:09.394	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:09.713	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:09.713	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:09.821	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:09.821	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:09.858	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:09.858	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:09.884	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:09.884	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:10.199	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:10.199	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:10.314	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:10.314	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:10.347	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:10.347	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:10.372	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:10.372	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:10.692	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:10.692	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:10.801	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:10.801	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:10.835	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:10.835	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:10.861	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:10.861	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:11.180	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:11.180	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:11.286	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:11.286	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:11.325	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:11.325	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:11.349	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:11.349	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:11.661	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:11.661	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:11.778	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:11.778	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:11.814	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:11.814	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:11.836	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:11.836	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:12.157	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:12.157	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:12.268	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:12.268	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:12.297	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:12.297	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:12.326	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:12.326	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:12.640	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:12.640	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:12.752	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:12.752	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:12.785	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:12.785	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:12.817	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:12.817	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:13.126	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:13.126	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:13.239	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:13.239	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:13.275	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:13.275	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:13.305	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:13.305	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:13.620	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:13.620	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:13.729	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:13.729	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:13.765	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:13.765	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:13.793	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:13.793	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:14.107	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:14.107	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:14.217	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:14.217	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:14.248	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:14.248	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:14.284	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed
+00:14.284	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:14.593	ID:3	y~~Ed{"Sender": 2, "Receiver": 3}]'~~Ed
+00:14.593	ID:1	y~~Ed{"Sender": 2, "Receiver": 1}]E~~Ed
+00:14.708	ID:1	y~~Ed{"Sender": 4, "Receiver": 1}]	~~Ed
+00:14.708	ID:3	y~~Ed{"Sender": 4, "Receiver": 3}]k~~Ed
+00:14.738	ID:2	y~~Ed{"Sender": 1, "Receiver": 2}]0~~Ed
+00:14.738	ID:4	y~~Ed{"Sender": 1, "Receiver": 4}]L~~Ed
+00:14.772	ID:4	y~~Ed{"Sender": 3, "Receiver": 4}]Rm~~Ed
+00:14.772	ID:2	y~~Ed{"Sender": 3, "Receiver": 2}]~~Ed

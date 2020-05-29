@@ -107,9 +107,6 @@ implementation {
   }
    
  event void LogRead.readDone(void* buf, storage_len_t len, error_t err) {
-    if ( (len == sizeof(logentry_t)) && (buf == &log_entry) ) {
-      //manage this if we want to read the logs
-    }     
   }
 
   event void LogRead.seekDone(error_t err) {
